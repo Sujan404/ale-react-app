@@ -18,13 +18,79 @@
 
 .introContent{
     height: 100vh;
-    width: 100vh;
-    padding: 2rem;
+    /* width: 100vh; */
+    /* padding: 2rem; */
     font-size: 3rem;
     font-weight: 700;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 480px) and (min-width: 420px){
+    .introContent{
+        font-size: 2rem;
+        margin: 0 1rem;
+    }
+
+    .hello{
+        font-size: 1rem;
+    }
+
+    .introPara{
+        font-size: small;
+    }
+
+    .bg{
+        transform: scale(0.65);
+        height: 100vh;
+        right: -5rem;
+        margin: 0 auto;
+    }
+
+    #intro{
+        margin-top: -9rem;
+    }
+}
+@media(max-width:420px){
+    .bg{
+        transform: scale(0.55);
+        right: -6rem;
+    }
+
+    #intro{
+        margin-top: -12rem;
+    }
+
+    .introContent{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:767px) and (min-width:480px){
+    .bg{
+        transform: scale(0.85);
+        height: 100vh;
+        right: -2rem;
+    }
+    #intro{
+        margin-top: -3rem;
+    }
+}
+@media(min-width:767px) and (max-width:992px){
+    .bg{
+        margin: auto;
+        transform: scale(0.75);
+        right: -2rem;
+    }
+
+    .introContent{
+        font-size: 3rem;
+        margin: 0 1rem;
+    }
+    #intro{
+        margin-top: -6rem;
+    }
 }
 
 .hello{
