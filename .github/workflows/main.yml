@@ -18,16 +18,19 @@ jobs:
           node-version: '20.10.0'
 
       - name: Install dependencies
-        run: npm install
-        run: echo 'Dependencies are installed'
+        run: 
+          - npm install
+          - echo 'Dependencies are installed'
 
       - name: Run tests
-        run: npm test
-        run: echo 'Test is completed'
+        run: 
+          - npm test
+          - echo 'Test is completed'
 
       - name: Build project
-        run: npm run build
-        run: echo 'Build is completed'
+        run: 
+          - npm run build
+          - echo 'Build is completed'
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
