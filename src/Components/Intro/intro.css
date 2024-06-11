@@ -54,12 +54,13 @@
 }
 @media(max-width:420px){
     .bg{
-        transform: scale(0.55);
-        right: -6rem;
+        transform: scale(0.65);
+        right: -4rem;
+        top: 0rem;
     }
 
     #intro{
-        margin-top: -12rem;
+        margin-top: -6rem;
     }
 
     .introContent{
