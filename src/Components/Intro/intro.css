@@ -65,32 +65,40 @@
 
     .introContent{
         font-size: 2rem;
+        margin: 0 1rem;
     }
 }
 
 @media (max-width:767px) and (min-width:480px){
     .bg{
-        transform: scale(0.85);
         height: 100vh;
-        right: -2rem;
+        right: 2rem;
+        top: 1rem;
     }
-    #intro{
-        margin-top: -3rem;
+    .introContent{
+        font-size: 2rem;
+        margin: 0 2rem 
     }
 }
 @media(min-width:767px) and (max-width:992px){
     .bg{
         margin: auto;
-        transform: scale(0.75);
-        right: -2rem;
+        right: 2rem;
     }
 
     .introContent{
         font-size: 3rem;
-        margin: 0 1rem;
+        margin: 0 2rem;
     }
-    #intro{
-        margin-top: -6rem;
+}
+@media (min-width: 992px){
+    .introContent{
+        margin: 0 2rem;
+    }
+
+    .bg{
+        margin: auto;
+        right: 2rem;
     }
 }
 
