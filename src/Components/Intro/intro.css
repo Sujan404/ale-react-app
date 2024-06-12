@@ -1,5 +1,5 @@
 #intro{
-    height: calc(100vh-4rem);
+    /* height: calc(100vh-4rem); */
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -31,7 +31,7 @@
     .introContent{
         font-size: 2rem;
         margin: 0 1rem;
-        height: 80vh;
+        height: 75vh;
     }
 
     .hello{
@@ -62,6 +62,7 @@
 
     #intro{
         margin-top: -6rem;
+        height: 80vh;
     }
 
     .introContent{
@@ -80,6 +81,9 @@
     .introContent{
         font-size: 2rem;
         margin: 0 2rem 
+    }
+    .intro{
+        height: 100vh;
     }
 }
 @media(min-width:767px) and (max-width:992px){
