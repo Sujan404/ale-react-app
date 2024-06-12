@@ -1,0 +1,23 @@
+
+
+.about-me-banner{
+    width: 100vw;
+    margin: 0 auto;
+    height: 150px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.about-me h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(8 126 164);
+}

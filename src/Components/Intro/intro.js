@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 import { Col, Row } from 'react-bootstrap';
 const Intro = () => {
   return (
-    <Row>
+    <Row id='content'>
     <section id='intro'>
       <Col lg={8} md={9} sm={9}>
         <div className='introContent d-flex'>
@@ -17,8 +17,8 @@ const Intro = () => {
         </div>
         </Col>
         <Col lg={4} md={3} sm={3}>
-        <img src={bg} alt='Profile' className='bg' />
-        </Col>
+        <img src={bg} alt='Profile' className='intro-pic' />
+        </Col> 
     </section>
     </Row>
   )

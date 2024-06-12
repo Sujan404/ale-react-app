@@ -11,7 +11,6 @@ import { Link as ScrollLink } from "react-scroll";
 import logo from "../../assets/react.png";
 import contactImg from "../../assets/contact-mail.png";
 import "./navbar.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const CustomNavbar = () => {
   return (

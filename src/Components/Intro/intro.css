@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.bg{
+.intro-pic{
     position: absolute;
     top: 0rem;
     right: 0;
@@ -31,6 +31,7 @@
     .introContent{
         font-size: 2rem;
         margin: 0 1rem;
+        height: 80vh;
     }
 
     .hello{
@@ -41,7 +42,7 @@
         font-size: small;
     }
 
-    .bg{
+    .intro-pic{
         transform: scale(0.65);
         height: 100vh;
         right: -5rem;
@@ -53,7 +54,7 @@
     }
 }
 @media(max-width:420px){
-    .bg{
+    .intro-pic{
         transform: scale(0.65);
         right: -4rem;
         top: 0rem;
@@ -66,11 +67,12 @@
     .introContent{
         font-size: 2rem;
         margin: 0 1rem;
+        height: 80vh;
     }
 }
 
 @media (max-width:767px) and (min-width:480px){
-    .bg{
+    .intro-pic{
         height: 100vh;
         right: 2rem;
         top: 1rem;
@@ -81,7 +83,7 @@
     }
 }
 @media(min-width:767px) and (max-width:992px){
-    .bg{
+    .intro-pic{
         margin: auto;
         right: 2rem;
     }
@@ -96,7 +98,7 @@
         margin: 0 2rem;
     }
 
-    .bg{
+    .intro-pic{
         margin: auto;
         right: 2rem;
     }
